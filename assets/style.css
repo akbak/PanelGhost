@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    text-align: center;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+.status-200 { background-color: #d4edda; color: #155724; }
+.status-403 { background-color: #f8d7da; color: #721c24; }
+.status-404 { background-color: #fff3cd; color: #856404; }
+.status-301, .status-302 { background-color: #cce5ff; color: #004085; }
+
+.badge {
+    font-size: 0.9em;
+    padding: 0.4em 0.6em;
+}
+
+.badge-aktif { background-color: #28a745; color: white; }
+.badge-engelli { background-color: #dc3545; color: white; }
+.badge-olu { background-color: #6c757d; color: white; }
+.badge-yonlendirme { background-color: #007bff; color: white; }
+.badge-diger { background-color: #ffc107; color: black; }
